@@ -1,0 +1,37 @@
+// Fonts
+@import "base/fonts";
+
+// Utilities
+@import "utilities/variables";
+@import "utilities/flexbox";
+@import "utilities/mixins";
+@import "utilities/breakpoints";
+
+// Vendors
+@import "vendors/bootstrap/bootstrap";
+@import "vendors/swiper";
+@import "vendors/aos";
+
+// Base
+@import "base/reset";
+@import "base/generic";
+@import "base/typography";
+@import "base/form";
+
+// Layout
+
+@import "layout/header";
+@import "layout/footer";
+
+// Components
+@import "components/hero";
+@import "components/pricing";
+@import "components/gallery";
+@import "components/statistics";
+@import "components/loaders";
+@import "components/faqs";
+@import "components/what-i-offer";
+@import "components/previous-work";
+@import "components/our-team";
+@import "components/contact-us";
+

@@ -1,0 +1,100 @@
+.faqs {
+  padding: 80px 0;
+  &-inner {
+    width: 100%;
+    max-width: 840px;
+    margin-left: auto;
+    margin-right: auto;
+    .title-block {
+      width: fit-content;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      margin-bottom: 45px;
+      h4 {
+        font-weight: 700;
+      }
+    }
+
+    .faqs__accordion-block {
+      .accordion {
+        .accordion-item {
+          border: 1px solid $gray;
+          border-radius: 8px;
+          @include not-last {
+            margin-bottom: 20px;
+          }
+          .accordion-header {
+            .accordion-button {
+              font-size: 22px;
+              padding: 24px;
+              box-shadow: none;
+              background-color: transparent;
+              @include media-breakpoint-down(md) {
+                padding: 18px;
+                font-size: 17px;
+              }
+              @media screen and (max-width: 480px) {
+                padding: 10px;
+              }
+              &[aria-expanded="true"] {
+                border-bottom: 1px solid $gray;
+                &::after {
+                  a:hover {
+                    transform: rotate(0);
+                  }
+                }
+              }
+              &::after {
+                width: 28px;
+                height: 28px;
+                background-color: $gray-prominent;
+                border-radius: 100%;
+                border: 1px solid $gray-dark;
+                padding: 10px;
+                background-position: center center;
+              }
+              &:hover {
+                &::after {
+                  transform: scale(0.9) rotate(0);
+                }
+              }
+            }
+          }
+          .accordion-body {
+            p {
+              font-size: 18px;
+            }
+            ul {
+              padding-top: 10px;
+              li {
+                padding-left: 22px;
+                p {
+                  font-size: 18px;
+                  line-height: 1.1;
+                }
+                @include not-last {
+                  margin-bottom: 10px;
+                }
+                position: relative;
+                &::before {
+                  content: "";
+                  position: absolute;
+                  width: 8px;
+                  height: 8px;
+                  left: 0;
+                  top: 7px;
+                  border-radius: 100%;
+                  background-color: rgba($gray, 0.6);
+                }
+              }
+            }
+          }
+        }
+        &-collapse {
+          border-radius: 0;
+        }
+      }
+    }
+  }
+}

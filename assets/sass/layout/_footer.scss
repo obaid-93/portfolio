@@ -1,0 +1,111 @@
+.site-footer {
+  padding: 80px 0;
+  background-color: $gray-prominent;
+  .footer__links-block {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    .logo-block {
+      a {
+        font-size: 22px;
+        text-transform: uppercase;
+        font-weight: 500;
+      }
+    }
+    span.location-image {
+        img {
+            width: 25px;
+            height: 25px;
+        }
+    }
+    ul {
+      display: flex;
+      gap: 12px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      @include media-breakpoint-down(lg) {
+        gap: 24px;
+      }
+      li {
+        a {
+          font-weight: 500;
+          padding: 4px 0px;
+          transition: 0.4s all ease;
+          position: relative;
+          &::before {
+            content: "";
+            width: 0;
+            height: 2px;
+            background-color: $black;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            opacity: 0;
+          }
+          &:hover {
+            opacity: 0.7;
+            &::before {
+              width: 100%;
+              right: 0;
+              opacity: 1;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &__contact {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 16px;
+    @include media-breakpoint-down(md) {
+      align-items: start;
+      margin-top: 20px;
+    }
+    .footer-contact-link {
+        gap: 4px;
+        img {
+            width: 20px;
+            height: 20px;
+        }
+    }
+    .btn-wrapper {
+      @media screen and (max-width: 480px) {
+        width: 100%;
+      }
+    }
+    a.btn {
+      @include media-breakpoint-up(md) {
+        animation: pulse 2s ease infinite;
+        min-width: 330px;
+      }
+      @media screen and (max-width: 480px) {
+        display: block;
+      }
+    }
+  }
+  .social-block {
+    ul {
+      display: flex;
+      gap: 8px;
+      @include media-breakpoint-up(md) {
+        justify-content: end;
+      }
+      @include media-breakpoint-down(lg) {
+        margin-top: 35px;
+      }
+      li {
+        img {
+          width: 30px;
+          height: 30px;
+          transition: 0.3 s all ease;
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+      }
+    }
+  }
+}

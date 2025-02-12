@@ -1,0 +1,76 @@
+// Bootstrap Overrides
+$enable-caret: false;
+$font-size-base: 1rem !default;
+$h1-font-size: $font-size-base * 3.125 !default;
+$form-floating-label-opacity: 0.8 !default;
+$form-floating-label-transform: scale(0.85) translateY(-1rem)
+  translateX(0.15rem) !default;
+$enable-negative-margins: true !default;
+
+$transition-collapse: height 0.7s ease;
+// Fonts Fallback
+
+$typographic-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", serif, sans-serif;
+
+// Fonts
+$body_font: "Jost", $typographic-font-family;
+$heading_font: "Butler", $typographic-font-family;
+// $font_awesome: "Font Awesome 6 Free";
+
+// Color pallets
+$transparent: rgba(0, 0, 0, 0);
+$white: #ffffff;
+$black: #000000;
+$gray-light: #f2efea;
+$gray: #394053;
+$gray-dark: #2c2d36;
+$gray-prominent: #edded3;
+$green-light: #6ae85a;
+
+$theme-colors: (
+  primary: $gray,
+  secondary: $gray-dark,
+  // success: $green,
+    //   warning: $yellow,
+    //   danger: $orange,
+    //   light: $light-blue,
+    //   dark: $black,,,,,,,,,,,,,,,,,,,,,,
+) !default;
+
+$colors: () !default;
+
+$colors: map-merge(
+  (
+    "white": $white,
+    "black": $black,
+    "gray-light": $gray-light,
+    "gray": $gray,
+    "gray-dark": $gray-dark,
+    "gray-prominent": $gray-prominent,
+    "green-light": $green-light,
+  ),
+  $colors
+);
+
+$theme-colors: map-merge(
+  (
+    "white": $white,
+    "black": $black,
+    "gray-light": $gray-light,
+    "gray": $gray,
+    "gray-dark": $gray-dark,
+    "gray-prominent": $gray-prominent,
+    "green-light": $green-light,
+  ),
+  $theme-colors
+);
+// https://www.kathrynmcclintock.com/reference for my portfolio
+// 1 color: #f2efea; body-bg
+// 2 color: #394053; for one-section and footer
+// 3 color: #2c2d36; text-color and button bg
+// 4 color: #ffffff; for some headings
+// 5 color: #000000; not used
+// 6 color: #edded3; for one prominent section or block
+// 7 color: #f2efea;
+// 8 color: #111111;

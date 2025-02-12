@@ -1,0 +1,168 @@
+.fw-light {
+  font-weight: 300;
+}
+
+.fw-regular {
+  font-weight: 400;
+}
+
+.fw-medium {
+  font-weight: 500;
+}
+
+.fw-demi {
+  font-weight: 600;
+}
+
+.fw-bold {
+  font-weight: 700;
+}
+
+.fw-extrabold {
+  font-weight: 800;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-overflow {
+  @extend .text-overflow;
+}
+
+.body-font {
+  font-family: $body_font;
+}
+
+.heading-font {
+  font-family: $heading_font;
+}
+
+a {
+  transition: 0.2s all ease;
+  cursor: pointer;
+
+  &:hover {
+  }
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  margin: 0;
+  font-family: $heading_font;
+  letter-spacing: -0.32px;
+}
+
+h1,
+.h1 {
+  font-size: 52px;
+  @include media-breakpoint-down(md) {
+    font-size: 42px;
+  }
+}
+
+h2,
+.h2 {
+  font-size: 48px;
+  @include media-breakpoint-down(md) {
+    font-size: 38px;
+  }
+}
+
+h3,
+.h3 {
+  font-style: 35px;
+  @include media-breakpoint-down(md) {
+    font-size: 30px;
+  }
+}
+
+h4,
+.h4 {
+  font-size: 30px;
+}
+
+h5,
+.h5 {
+  font-size: 25px;
+}
+
+h6,
+.h6 {
+  font-size: 23px;
+}
+
+p {
+  margin: 0;
+}
+
+.btn {
+  transition: 0.3s all ease;
+  padding: 16px 32px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 140%;
+  background-color: $gray;
+  color: $white;
+  border-radius: 0;
+  border: 1px solid $gray;
+  outline: 0;
+  box-shadow: none;
+  text-align: center;
+  box-shadow: none;
+  white-space: nowrap;
+  letter-spacing: 1.3px;
+  @media screen and (max-width: 480px) {
+    width: 100%;
+    display: block;
+  }
+
+  &:hover {
+    background-color: $transparent;
+    color: $gray;
+    border: 1px solid $gray-dark;
+  }
+
+  &:focus,
+  &:active {
+    outline: none;
+    box-shadow: none !important;
+  }
+  &-lg {
+    padding-left: 100px;
+    padding-right: 100px;
+    @include media-breakpoint-down(md) {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+  }
+  &-reset {
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-shadow: none;
+    outline: none;
+  }
+
+  &.min-w-200 {
+    min-width: 200px;
+  }
+}

@@ -1,0 +1,65 @@
+.loaders {
+  padding: 100px 0;
+  background-color: $purple;
+  .loader-1 {
+    width: 100px;
+    height: 100px;
+    // border: 1px solid $black;
+    border-radius: 100%;
+    overflow: hidden;
+    position: relative;
+    animation: CircleRotate 2s linear infinite;
+    .mini-circle {
+      width: 10px;
+      height: 10px;
+      border-radius: 100%;
+      background-color: $white;
+      border: 2px solid rgb(221, 159, 137);
+      position: absolute;
+      z-index: 2;
+      &:nth-child(1) {
+        left: 40px;
+        top: 1px;
+      }
+      &:nth-child(2) {
+        left: 66px;
+        top: 7px;
+      }
+      &:nth-child(3) {
+        right: 4px;
+        top: 30px;
+      }
+      &:nth-child(4) {
+        right: 7px;
+        top: 65px;
+      }
+      &:nth-child(5) {
+        right: 33px;
+        bottom: 2px;
+      }
+      &:nth-child(6) {
+        bottom: 12px;
+        left: 16px;
+      }
+      &:nth-child(7) {
+        left: 2px;
+        top: 46px;
+      }
+      &:nth-child(8) {
+        left: 16px;
+        top: 10px;
+      }
+    }
+  }
+}
+
+@keyframes CircleRotate {
+  0% {
+    transform: rotate(0deg);
+    opacity: 0.5;
+  }
+  100% {
+    transform: rotate(360deg); /* Full circular rotation */
+    opacity: 1;
+  }
+}

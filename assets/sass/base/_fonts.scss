@@ -1,0 +1,302 @@
+@font-face {
+  font-family: "Jost";
+  src: url("../fonts/Jost-Bold.eot");
+  src: url("../fonts/Jost-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Jost-Bold.woff2") format("woff2"),
+    url("../fonts/Jost-Bold.woff") format("woff"),
+    url("../fonts/Jost-Bold.ttf") format("truetype"),
+    url("../fonts/Jost-Bold.svg#Jost-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("../fonts/Jost-Italic.eot");
+  src: url("../fonts/Jost-Italic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Jost-Italic.woff2") format("woff2"),
+    url("../fonts/Jost-Italic.woff") format("woff"),
+    url("../fonts/Jost-Italic.ttf") format("truetype"),
+    url("../fonts/Jost-Italic.svg#Jost-Italic") format("svg");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("../fonts/Jost-ExtraBoldItalic.eot");
+  src: url("../fonts/Jost-ExtraBoldItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Jost-ExtraBoldItalic.woff2") format("woff2"),
+    url("../fonts/Jost-ExtraBoldItalic.woff") format("woff"),
+    url("../fonts/Jost-ExtraBoldItalic.ttf") format("truetype"),
+    url("../fonts/Jost-ExtraBoldItalic.svg#Jost-ExtraBoldItalic") format("svg");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("../fonts/Jost-BoldItalic.eot");
+  src: url("../fonts/Jost-BoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Jost-BoldItalic.woff2") format("woff2"),
+    url("../fonts/Jost-BoldItalic.woff") format("woff"),
+    url("../fonts/Jost-BoldItalic.ttf") format("truetype"),
+    url("../fonts/Jost-BoldItalic.svg#Jost-BoldItalic") format("svg");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("../fonts/Jost-ExtraLightItalic.eot");
+  src: url("../fonts/Jost-ExtraLightItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Jost-ExtraLightItalic.woff2") format("woff2"),
+    url("../fonts/Jost-ExtraLightItalic.woff") format("woff"),
+    url("../fonts/Jost-ExtraLightItalic.ttf") format("truetype"),
+    url("../fonts/Jost-ExtraLightItalic.svg#Jost-ExtraLightItalic")
+      format("svg");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("../fonts/Jost-Light.eot");
+  src: url("../fonts/Jost-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Jost-Light.woff2") format("woff2"),
+    url("../fonts/Jost-Light.woff") format("woff"),
+    url("../fonts/Jost-Light.ttf") format("truetype"),
+    url("../fonts/Jost-Light.svg#Jost-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("../fonts/Jost-Regular.eot");
+  src: url("../fonts/Jost-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Jost-Regular.woff2") format("woff2"),
+    url("../fonts/Jost-Regular.woff") format("woff"),
+    url("../fonts/Jost-Regular.ttf") format("truetype"),
+    url("../fonts/Jost-Regular.svg#Jost-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("../fonts/Jost-ExtraLight.eot");
+  src: url("../fonts/Jost-ExtraLight.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Jost-ExtraLight.woff2") format("woff2"),
+    url("../fonts/Jost-ExtraLight.woff") format("woff"),
+    url("../fonts/Jost-ExtraLight.ttf") format("truetype"),
+    url("../fonts/Jost-ExtraLight.svg#Jost-ExtraLight") format("svg");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("../fonts/Jost-LightItalic.eot");
+  src: url("../fonts/Jost-LightItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Jost-LightItalic.woff2") format("woff2"),
+    url("../fonts/Jost-LightItalic.woff") format("woff"),
+    url("../fonts/Jost-LightItalic.ttf") format("truetype"),
+    url("../fonts/Jost-LightItalic.svg#Jost-LightItalic") format("svg");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("../fonts/Jost-Medium.eot");
+  src: url("../fonts/Jost-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Jost-Medium.woff2") format("woff2"),
+    url("../fonts/Jost-Medium.woff") format("woff"),
+    url("../fonts/Jost-Medium.ttf") format("truetype"),
+    url("../fonts/Jost-Medium.svg#Jost-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("../fonts/Jost-ExtraBold.eot");
+  src: url("../fonts/Jost-ExtraBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Jost-ExtraBold.woff2") format("woff2"),
+    url("../fonts/Jost-ExtraBold.woff") format("woff"),
+    url("../fonts/Jost-ExtraBold.ttf") format("truetype"),
+    url("../fonts/Jost-ExtraBold.svg#Jost-ExtraBold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("../fonts/Jost-ThinItalic.eot");
+  src: url("../fonts/Jost-ThinItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Jost-ThinItalic.woff2") format("woff2"),
+    url("../fonts/Jost-ThinItalic.woff") format("woff"),
+    url("../fonts/Jost-ThinItalic.ttf") format("truetype"),
+    url("../fonts/Jost-ThinItalic.svg#Jost-ThinItalic") format("svg");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("../fonts/Jost-MediumItalic.eot");
+  src: url("../fonts/Jost-MediumItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Jost-MediumItalic.woff2") format("woff2"),
+    url("../fonts/Jost-MediumItalic.woff") format("woff"),
+    url("../fonts/Jost-MediumItalic.ttf") format("truetype"),
+    url("../fonts/Jost-MediumItalic.svg#Jost-MediumItalic") format("svg");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("../fonts/Jost-SemiBoldItalic.eot");
+  src: url("../fonts/Jost-SemiBoldItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Jost-SemiBoldItalic.woff2") format("woff2"),
+    url("../fonts/Jost-SemiBoldItalic.woff") format("woff"),
+    url("../fonts/Jost-SemiBoldItalic.ttf") format("truetype"),
+    url("../fonts/Jost-SemiBoldItalic.svg#Jost-SemiBoldItalic") format("svg");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("../fonts/Jost-Thin.eot");
+  src: url("../fonts/Jost-Thin.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Jost-Thin.woff2") format("woff2"),
+    url("../fonts/Jost-Thin.woff") format("woff"),
+    url("../fonts/Jost-Thin.ttf") format("truetype"),
+    url("../fonts/Jost-Thin.svg#Jost-Thin") format("svg");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("../fonts/Jost-SemiBold.eot");
+  src: url("../fonts/Jost-SemiBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Jost-SemiBold.woff2") format("woff2"),
+    url("../fonts/Jost-SemiBold.woff") format("woff"),
+    url("../fonts/Jost-SemiBold.ttf") format("truetype"),
+    url("../fonts/Jost-SemiBold.svg#Jost-SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Butler";
+  src: url("../fonts/Butler-Black.eot");
+  src: url("../fonts/Butler-Black.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Butler-Black.woff2") format("woff2"),
+    url("../fonts/Butler-Black.woff") format("woff"),
+    url("../fonts/Butler-Black.ttf") format("truetype"),
+    url("../fonts/Butler-Black.svg#Butler-Black") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Butler";
+  src: url("../fonts/Butler.eot");
+  src: url("../fonts/Butler.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Butler.woff2") format("woff2"),
+    url("../fonts/Butler.woff") format("woff"),
+    url("../fonts/Butler.ttf") format("truetype"),
+    url("../fonts/Butler.svg#Butler") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Butler";
+  src: url("../fonts/Butler-Medium.eot");
+  src: url("../fonts/Butler-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Butler-Medium.woff2") format("woff2"),
+    url("../fonts/Butler-Medium.woff") format("woff"),
+    url("../fonts/Butler-Medium.ttf") format("truetype"),
+    url("../fonts/Butler-Medium.svg#Butler-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Butler";
+  src: url("../fonts/Butler-Light.eot");
+  src: url("../fonts/Butler-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Butler-Light.woff2") format("woff2"),
+    url("../fonts/Butler-Light.woff") format("woff"),
+    url("../fonts/Butler-Light.ttf") format("truetype"),
+    url("../fonts/Butler-Light.svg#Butler-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Butler";
+  src: url("../fonts/Butler-ExtraBold.eot");
+  src: url("../fonts/Butler-ExtraBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Butler-ExtraBold.woff2") format("woff2"),
+    url("../fonts/Butler-ExtraBold.woff") format("woff"),
+    url("../fonts/Butler-ExtraBold.ttf") format("truetype"),
+    url("../fonts/Butler-ExtraBold.svg#Butler-ExtraBold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Butler";
+  src: url("../fonts/Butler-UltraLight.eot");
+  src: url("../fonts/Butler-UltraLight.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Butler-UltraLight.woff2") format("woff2"),
+    url("../fonts/Butler-UltraLight.woff") format("woff"),
+    url("../fonts/Butler-UltraLight.ttf") format("truetype"),
+    url("../fonts/Butler-UltraLight.svg#Butler-UltraLight") format("svg");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Butler";
+  src: url("../fonts/Butler-Bold.eot");
+  src: url("../fonts/Butler-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Butler-Bold.woff2") format("woff2"),
+    url("../fonts/Butler-Bold.woff") format("woff"),
+    url("../fonts/Butler-Bold.ttf") format("truetype"),
+    url("../fonts/Butler-Bold.svg#Butler-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
